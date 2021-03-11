@@ -1,0 +1,85 @@
+.section {
+    margin-bottom: 100px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 540px;
+    height: 212px;
+    padding: 35px 40px;
+    background-color: var(--color-accent);
+    color: var(--color-white);
+
+    &__title {
+        margin-bottom: 25px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    &__descr {
+        max-width: 250px;
+        margin-bottom: 25px;
+        line-height: 20px;
+    }
+
+    &__input {
+        width: 225px;
+        height: 35px;
+        border: none;
+        border-radius: 30px;
+        padding-left: 25px;
+        padding-right: 25px;
+        background-color: var(--color-white);
+
+        &::placeholder {
+            color: #c4c4c4;
+        }
+    }
+}
+
+.our-shops {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 540px;
+    height: 212px;
+    padding: 35px 40px;
+    background-color: var(--color-accent);
+    color: var(--color-white);
+
+    &__title {
+        margin-bottom: 25px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    &__descr {
+        max-width: 141px;
+        margin-bottom: 25px;
+        line-height: 20px;
+    }
+
+    &__btn {
+        border: 2px solid var(--color-white);
+        border-radius: 30px;
+        padding: 10px 30px;
+        font-size: 14px;
+        color: inherit;
+        transition: background-color .3s ease-in-out;
+
+        &:hover {
+            background-color: var(--color-white);
+            color: var(--color-black);
+        }
+    }
+}

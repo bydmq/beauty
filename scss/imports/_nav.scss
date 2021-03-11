@@ -1,0 +1,20 @@
+.nav {
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+
+    &__link {
+
+        &:hover {
+            border-bottom: 1px solid var(--color-accent);
+            color: var(--color-accent);
+        }
+    }
+}

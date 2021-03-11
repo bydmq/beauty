@@ -1,0 +1,41 @@
+.product {
+    max-width: 255px;
+    padding: 25px 30px;
+    background-color: var(--color-white);
+    text-align: center;
+    color: var(--color-dark);
+
+    &__image {
+        margin-bottom: 20px;
+    }
+
+    &__link {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    &__price {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-weight: 500;
+        font-size: 21px;
+        letter-spacing: 0.05em;
+        color: var(--color-black);
+    }
+
+    &__btn {
+        border: 2px solid transparent;
+        border-radius: 30px;
+        padding: 10px 40px;
+        background-color: var(--color-accent);
+        letter-spacing: 0.05em;
+        color: var(--color-white);
+        transition: background-color .3s ease-in-out;
+
+        &:hover {
+            border: 2px solid var(--color-accent);
+            background-color: var(--color-white);
+            color: var(--color-black);
+        }
+    }
+}
